@@ -1,0 +1,56 @@
+#container{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+    border: black 1px solid;
+    transform: rotate(-35deg);
+}
+
+p{
+    transform: rotate(-40deg);
+}
+
+#container2{
+    height: 200px;
+    width: 200px;
+    border: black solid 1px;
+    background-color: gold;
+    transform: translate(-35px);
+    margin-left: 30%;
+}
+
+.one{
+    border: 2px dashed black;
+    height: 200px;
+    width: 200px;
+    transform: translate(35px, 35px);
+}
+
+#container3{
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+    border: black solid 1px;
+    transform: scale(1.5, 1.5);
+    margin-left: 60%;
+}
+
+.two{
+    position:absolute;
+    z-index: -1;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transform: scale(0.5,0.5);
+}
+
+#container4{
+    height: 300px;
+    width: 300px;
+    background-color: dimgray;
+    border: black solid 1px;
+    margin-left: 25%;
+    transform: skewX(50deg);
+}
